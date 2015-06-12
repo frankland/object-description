@@ -1,0 +1,26 @@
+{
+  "name": "object-description",
+  "version": "0.0.1",
+  "description": "Easy way to create objects with nested attributes",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js --compilers js:babel/register",
+    "prepublish": "./node_modules/.bin/babel -d ./ ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankland/object-description.git"
+  },
+  "author": "tuchk4 <valeriy.sorokobatko@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankland/object-description/issues"
+  },
+  "homepage": "https://github.com/frankland/object-description#readme",
+  "devDependencies": {
+    "babel": "^5.5.6",
+    "chai": "^3.0.0",
+    "lodash": "^3.9.3",
+    "mocha": "^2.2.5"
+  }
+}
