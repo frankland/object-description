@@ -1,6 +1,6 @@
 {
   "name": "object-description",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easy way to create objects with nested attributes",
   "main": "index.js",
   "scripts": {
